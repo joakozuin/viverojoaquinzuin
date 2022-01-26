@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import NavBarComp from "./components/NavBarComp";
 
 function App() {
   return (
     <div className="App">
+      <NavBarComp />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Coder House React.
         </p>
         <a
           className="App-link"
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Joaquin Learn React
+          Joaquin Zuin Learn React
         </a>
       </header>
     </div>
